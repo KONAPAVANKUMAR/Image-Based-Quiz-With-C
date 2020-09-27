@@ -1,0 +1,180 @@
+1. Process of inserting an element in stack is called ____________
+a) Create b) Push c) Evaluation d) Pop
+noimage
+b
+2. Process of removing an element from stack is called __________
+a) Create b) Push c) Evaluation d) Pop
+noimage
+d
+3. Consider the following definition in c programming language Which of the following c code is used to create new node?
+a) ptr = (NODE*)malloc(sizeof(NODE)); b) ptr = (NODE*)malloc(NODE); c) ptr = (NODE*)malloc(sizeof(NODE*)); d) ptr = (NODE)malloc(sizeof(NODE));
+image3
+a
+4. The data structure required to check whether an expression contains balanced parenthesis is?
+a) Stack b) Queue c) Array d) Tree
+noimage
+a
+5. What data structure would you mostly likely see in a non recursive implementation of a recursive algorithm?
+a) Linked List b) Stack c) Queue d) Tree
+noimage
+b
+6. What does the following function do for a given Linked List with first node as head?
+a) Prints all nodes of linked lists b) Prints all nodes of linked list in reverse order c) Prints alternate nodes of Linked List d) Prints alternate nodes in reverse order
+image7
+b
+7. Which of the following sorting algorithms can be used to sort a random linked list with minimum time complexity?
+a) Insertion Sort b) Quick Sort c) Heap Sort d) Merge Sort
+noimage
+d
+8. Linked list data structure offers considerable saving in _____________
+a) Computational Time b) Space Utilization c) Space Utilization and Computational Time d) Speed Utilization
+noimage
+c
+9. The following function reverse() is supposed to reverse a singly linked list. There is one line missing at the end of the function.What should be added in place of “/*ADD A STATEMENT HERE*/”, so that the function correctly reverses a linked list.
+a) *head_ref = prev; b) *head_ref = current; c) *head_ref = next; d) *head_ref = NULL;
+image9
+a
+10. What is the output of following function for start pointing to first node of following linked list?
+a) 1 4 6 6 4 1 b) 1 3 5 1 3 5 c) 1 2 3 5 d) 1 3 5 5 3 1
+image10
+d
+11. The following C function takes a simply-linked list as input argument.It modifies the list by moving the last element to the front of the list and returns the modified list. Some part of the code isleft blank.Choose the correct alternative to replace the blank line.
+a) q = NULL; p->next = head; head = p; b) q->next = NULL; head = p; p->next = head; c) head = p; p->next = q; q->next = NULL; d) q->next = NULL; p->next = head; head = p;
+image11
+d
+12. The following C function takes a single-linked list of integers as a parameter and rearranges the elements of the list. The function is called with the list containing the integers 1, 2, 3, 4, 5, 6, 7 in the given order. What will be the contents of the list after the function completes execution?
+a) 1, 2, 3, 4, 5, 6, 7 b) 2, 1, 4, 3, 6, 5, 7 c) 1, 3, 2, 5, 4, 7, 6 d) 2, 3, 4, 5, 6, 7, 1
+image12
+b
+13. In the worst case, the number of comparisons needed to search a singly linked list of length n for a given element is
+a) log 2 n b) n/2 c) log 2 n – 1 d) n
+noimage
+d
+14. Given pointer to a node X in a singly linked list. Only one pointer is given, pointer to head node is not given, can we delete the node X from given linked list?
+a) Possible if X is not last node b) Possible if size of linked list is even c) Possible if size of linked list is odd d) Possible if X is not first node
+noimage
+a
+15. You are given pointers to first and last nodes of a singly linked list, which of the following operations are dependent on the length of the linked list?
+a) Delete the first element b) Insert a new element as a first element c) Delete the last element of the list d) Add a new element at the end of the list
+noimage
+c
+16. In the worst case, the number of comparisons needed to search a singly linked list of length n for a given element is
+a) log2 n b) n/2 c) log2 n – 1 d) n
+noimage
+d
+17. What is the time complexity of inserting at the end in dynamic arrays?
+a) O(1) b) O(n) c) O(logn) d) Either O(1) or O(n)
+noimage
+d
+18. What is the functionality of the following code?
+a) Inserting a node at the beginning of the list b) Deleting a node at the beginning of the list c) Inserting a node at the end of the list d) Deleting a node at the end of the list
+image18
+c
+19. What is the functionality of the following piece of code?
+a) Find and delete a given element in the list b) Find and return the given element in the list c) Find and return the position of the given element in the list d) Find and insert a new element in the list
+image19
+c
+20. Which of the following is false about a doubly linked list?
+a) We can navigate in both the directions b) It requires more space than a singly linked list c) The insertion and deletion of a node take a bit longer d) Implementing a doubly linked list is easier than singly linked list
+noimage
+d
+21. Consider the following doubly linked list: head-1-2-3-4-5-tail  What will be the list after performing the given sequence of operations?
+a) head-6-1-2-3-4-5-tail b) head-6-1-2-3-4-tail c) head-1-2-3-4-5-6-tail d) head-1-2-3-4-5-tail
+image21
+b
+22. What differentiates a circular linked list from a normal linked list?
+a) You cannot have the ‘next’ pointer point to null in a circular linked list b) It is faster to traverse the circular linked list c) You may or may not have the ‘next’ pointer point to null in a circular linked list d) Head node is known in circular linked list
+noimage
+c
+23. What is the time complexity of searching for an element in a circular linked list?
+a) O(n) b) O(nlogn) c) O(1) d) O(n2)
+noimage
+a
+24. Which of the following application makes use of a circular linked list?
+a) Undo operation in a text editor b) Recursive function calls c) Allocating CPU to resources d) Implement Hash Tables
+noimage
+c
+25. What is the functionality of the following code? Choose the most appropriate answer.
+a) Return data from the end of the list b) Returns the data and deletes the node at the end of the list c) Returns the data from the beginning of the list d) Returns the data and deletes the node from the beginning of the list
+image25
+d
+26. What is the functionality of the following code? Choose the most appropriate answer
+a) Return data from the end of the list b) Returns the data and deletes the node at the end of the list c) Returns the data from the beginning of the list d) Returns the data and deletes the node from the beginning of the list
+image26
+b
+27. Which of the following is false about a circular linked list?
+a) Every node has a successor b) Time complexity of inserting a new node at the head of the list is O(1) c) Time complexity for deleting the last node is O(n) d) We can traverse the whole circular linked list by starting from any point
+noimage
+b
+28. How many children does a binary tree have?
+a) 2 b) any number of children c) 0 or 1 or 2 d) 0 or 1
+noimage
+c
+29. What is/are the disadvantages of implementing tree using normal arrays?
+a) difficulty in knowing children nodes of a node b) difficult in finding the parent of a node c) have to know the maximum number of nodes possible before creation of trees d) difficult to implement
+noimage
+c
+30. What must be the missing logic in place of missing lines for finding sum of nodes of binary tree in alternate levels?
+nooptions
+image30
+a
+31. If the tree is not a complete binary tree then what changes can be made for easy access of children of a node in the array?
+a) every node stores data saying which of its children exist in the array b) no need of any changes continue with 2w and 2w+1, if node is at i c) keep a seperate table telling children of a node d) use another array parallel to the array with tree
+noimage
+a
+32. Consider a situation of writing a binary tree into a file with memory storage efficiency in mind, is array representation of tree is good?
+a) yes because we are overcoming the need of pointers and so space efficiency b) yes because array values are indexable c) No it is not efficient in case of sparse trees and remaning cases it is fine d) No linked list representation of tree is only fine
+noimage
+c
+33. Why is heap implemented using array representations than tree(linked list) representations though both tree representations and heaps have same complexities? Then why go with array representation when both are having same values ?
+a) arrays can store trees which are complete and heaps are not complete b) lists representation takes more memory hence memory efficiency is less and go with arrays and arrays have better caching c) lists have better caching d) In lists insertion and deletion is difficult
+image33
+b
+34. Can a tree stored in an array using either one of inorder or post order or pre order traversals be again reformed?
+a) Yes just traverse through the array and form the tree b) No we need one more traversal to form a tree c) No in case of sparse trees d) Yes by using both inorder and array elements
+noimage
+b
+35. Advantages of linked list representation of binary trees over arrays?
+a) dynamic size b) ease of insertion/deletion c) ease in randomly accessing a node d) both dynamic size and ease in insertion/deletion
+noimage 
+d
+36. What is missing in this logic of finding a path in the tree for a given sum (i.e checking whether there will be a path from roots to leaf nodes with given sum)?
+a) code for having recursive calls to either only left tree or right trees or to both subtrees depending on their existence b) code for having recursive calls to either only left tree or right trees c) code for having recursive calls to either only left tree d) code for having recursive calls to either only right trees
+image36
+a
+37. What may be the psuedo code for finding the size of a tree?
+a) find_size(root_node–>left_node) + 1 + find_size(root_node–>right_node) b) find_size(root_node–>left_node) + find_size(root_node–>right_node) c) find_size(root_node–>right_node) – 1 d) find_size(root_node–>left_node + 1
+noimage
+a
+38. Identify the reason which doesn’t play a key role to use threaded binary trees?
+a) The storage required by stack and queue is more b) The pointers in most of nodes of a binary tree are NULL c) It is Difficult to find a successor node d) They occupy less size
+noimage
+d
+39. What is the code below trying to print?
+a) just printing all nodes b) not a valid logic to do any task c) printing ancestors of a node passed as argument d) printing nodes from leaf node to a node passed as argument
+image39
+c
+40. What is the maximum number of children that a binary tree node can have?
+a) 0 b) 1 c) 2 d) 3
+noimage
+c
+41. The following given tree is an example for?
+a) Binary tree b) Binary search tree c) Fibonacci tree d) AVL tree
+image41
+a
+42. A binary tree is a rooted tree but not an ordered tree.
+a) true b) false
+noimage
+b
+43. How many common operations are performed in a binary tree?
+a) 1 b) 2 c) 3 d) 4
+noimage
+c
+44. What is the traversal strategy used in the binary tree?
+a) depth-first traversal b) breadth-first traversal c) random traversal d) Priority traversal
+noimage
+b
+45. How many types of insertion are performed in a binary tree?
+a) 1 b) 2 c) 3 d) 4
+noimage
+b
